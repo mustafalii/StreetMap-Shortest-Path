@@ -1,7 +1,7 @@
 # StreetMap-Shortest-Path
 
 ## Introduction
-Given a data-set representing the roads and intersections in a specific geographic region, this program plots a map of the data and provides shortest path directions between any two arbitrary intersections using Dijkstra’s algorithm.
+Given a data-set representing the roads and intersections in a specific geographic region, this program plots a map of the data and provides shortest path directions between any two arbitrary intersections using Dijkstra’s algorithm. This project taught me a lot about run-time optimization and strengthened my knowledge of data structures. 
 
 ## Input Data
 Data is stored in tab-delimited text files. See files: ur.txt, monroe.txt. The file nys.txt could not be uploaded due to file size restrictions.
@@ -28,6 +28,6 @@ Given the command:
 java StreetMap ur.txt --show --directions SUEB HOYT
 ```
 
-The program outputs:
+The program takes less than a second to run and outputs:
 
 <img src="/imgs/img1.JPG" >
